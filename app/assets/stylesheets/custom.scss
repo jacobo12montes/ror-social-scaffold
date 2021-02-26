@@ -155,10 +155,6 @@ form {
       padding: 8px;
       background-color: $primary-color-light;
     }
-
-    input[type="checkbox"] {
-      width: fit-content;
-    }
   }
 
   .actions {
@@ -289,6 +285,11 @@ form {
     font-size: 0.8em;
     margin: 0 0 8px 0;
     color: $primary-color-dark;
+  }
+
+  .add-friend {
+    background-color: transparent;
+    padding: 3px 5px;
   }
 }
 

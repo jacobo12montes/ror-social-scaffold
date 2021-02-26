@@ -1,0 +1,3 @@
+<% if current_user.friend?(user) || current_user == user %>
+  <%= render @posts %>
+<% end %>
